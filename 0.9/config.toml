@@ -9,7 +9,7 @@ reporting-disabled = false
   join-urls = ""
 
 [authentication]
-  enabled = false
+  enabled = true
 
 [admin]
   enabled = true
@@ -43,7 +43,7 @@ reporting-disabled = false
   retention-create-period = "45m0s"
 
 [snapshot]
-  enabled = false
+  enabled = true
 
 [logging]
   write-tracing = false
@@ -52,7 +52,7 @@ reporting-disabled = false
   file   = "/opt/influxdb/shared/log.txt"
 
 [monitoring]
-  enabled = false
+  enabled = true
 
 [debugging]
   pprof-enabled = false
